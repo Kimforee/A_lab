@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Krona One' rel='stylesheet">
+    <style>
+          :root {
+        --bg: #EDF2F0;
+        /* --neu-1: #ecf0f3; */
+        --neu-1: #d8e0f0;
+        --neu-2: #d1d9e6;
+        --white: #f9f9f9;
+        --gray: #a0a5a8;
+        --black: #181818;
+        --purple: #4B70E2;
+        --transition: 1.25s;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 5px 5px;
+            padding: 30px 30px;
+            text-align: center;
+            background-color: rgb(229, 229, 229);      
+        }
+        .parent{
+            font-family:'Roboto','Bold';
+            font-size: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 90px;
+            margin: 5px 5px;
+            width: 700px;          
+            border: 1px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: var(--neu-1);
+            box-shadow: 10px 10px 10px var(--neu-2), 
+            -10px -10px 10px var(--white);
+        }
+        .child{
+            position: relative;
+            bottom: 25px;
+            padding: 20px 5px;
+            width: 400px;
+            background-color:rgba(255, 255, 255, 0.553);
+        }
+        .btn{
+            align-items: center;
+            font-family:'Roboto',sans-serif;
+            font-size: 14px;
+            width: 90px;
+            height: 30px;
+            border-width: 1px;
+            border-color: rgb(255, 255, 255);
+            border-radius: 3px;
+            background-color: #adbbff;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    </style>
+</head>
+<body>
+    <!-- main -->
+<div class="parent">
+    <form method="post" action="{% url 'login_page' %}">
+        {% csrf_token %}
+        <img src="{% static '/A_lab.png' %}">
+        <p style="margin-top: -10px ;">Welcome !</p>
+        <img width="300px" src="{% static '/amico.png' %}">
+    <div class="child">        
+      <button type="submit"style="position: relative;margin-right: 40px;"class="btn">Log in
+      </button>
+      <button type="submit" style="position: relative; margin-left: 40px;"class="btn">Sign in
+      </button>
+    </div>
+</form>
+</div>
+</body>
+</html>

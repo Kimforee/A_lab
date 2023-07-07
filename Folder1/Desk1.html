@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="Desk1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+  />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="desktop-1-child"></div>
+      <img
+        class="speed-testamico-icon"
+        alt=""
+        src= "speedtestamico.svg"
+      />
+
+      <div class="desktop-1-item"></div>
+      <button class="sign-in" id="signIn">
+        <div class="sign-up">Sign up</div>
+      </button>
+      <button class="log-in" id="logIn">
+        <div class="log-in1">Log in</div>
+      </button>
+      <button class="vector-parent" id="Homepage">
+        <img class="vector-icon" alt="" src="lo.svg" />
+
+        <div class="lab">LAB</div>
+      </button>
+      <div class="welcome">Welcome !</div>
+    </div>
+
+    <script>
+      var signIn = document.getElementById("signIn");
+      if (signIn) {
+        signIn.addEventListener("click", function (e) {
+          window.location.href = "./Desk3.html";
+        });
+      }
+      
+      var logIn = document.getElementById("logIn");
+      if (logIn) {
+        logIn.addEventListener("click", function (e) {
+          window.location.href = "./Desk2.html";
+        });
+      }
+
+      var logIn = document.getElementById("Homepage");
+      if (logIn) {
+        logIn.addEventListener("click", function (e) {
+          window.location.href = "./LOCO.html";
+        });
+      }
+      </script>
+  </body>
+</html>

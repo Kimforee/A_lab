@@ -1,0 +1,183 @@
+.desktop-2-child {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    background-color: #E7FCFF;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 1280px;
+    height: 880px;
+    flex-shrink: 0;
+  }
+  .online-testamico-icon {
+    position: absolute;
+    height: 68.36%;
+    width: 48.61%;
+    top: 15.82%;
+    right: 42.36%;
+    bottom: 15.82%;
+    left: 9.03%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .log-in1 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-krona-one);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 71px;
+    height: 17.81px;
+    flex-shrink: 0;
+  }
+  .log-in {
+    cursor: pointer;
+    border: 0;
+    padding: 19.6875px 66px;
+    background-color: var(--color-lightblue);
+    position: absolute;
+    top: 554px;
+    left: 990px;
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 206px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .log-in-using {
+    position: relative;
+    font-size: 12px;
+    font-family: var(--font-krona-one);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 184px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .email,
+  .log-in2,
+  .password {
+    border: 0;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+  }
+  .log-in2 {
+    cursor: pointer;
+    padding: 0;
+    background-color: var(--color-lightblue);
+    top: 695px;
+    left: 990px;
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 206px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .email,
+  .password {
+    font-family: var(--font-roboto);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    top: 367px;
+    left: 973px;
+    color: #9a9a9a;
+    text-align: left;
+    height: 23px;
+  }
+
+  .email
+  {
+    color: #000000;
+  }
+  .password {
+    top: 436px;
+    color: #000000;
+    height: 23px;
+  }
+  .desktop-2-inner,
+  .desktop-2-item {
+    position: absolute;
+    top: 391.02px;
+    left: 973px;
+    width: 265px;
+    height: 1.98px;
+  }
+  .desktop-2-inner {
+    top: 459.5px;
+    left: 972.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 266px;
+    height: 1px;
+  }
+  .forgot-password,
+  .new-member {
+    position: absolute;
+    top: 471px;
+    left: 1110px;
+    display: flex;
+    align-items: flex-end;
+    width: 132px;
+    height: 20px;
+  }
+  .new-member {
+    top: 502px;
+    left: 1134px;
+  }
+  .line-div {
+    position: absolute;
+    top: 639.5px;
+    left: 913.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 385px;
+    height: 1px;
+  }
+  .lab,
+  .vector-icon {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 55px;
+    height: 49px;
+  }
+  .lab {
+    top: 27px;
+    left: 22px;
+    font-size: 9px;
+    display: inline-block;
+    width: 42px;
+    height: 14px;
+  }
+  .vector-parent {
+    position: absolute;
+    top: 198px;
+    left: 1076px;
+    border-radius: var(--br-341xl);
+    background-color: var(--color-black);
+    width: 67px;
+    height: 67px;
+    overflow: hidden;
+    font-size: var(--font-size-4xs);
+    font-family: var(--font-krona-one);
+  }
+  .desktop-2 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  

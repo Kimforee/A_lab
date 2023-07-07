@@ -1,0 +1,134 @@
+.desktop-1-child {
+    position: absolute;
+    top: 36px;
+    left: 25px;
+    background-color: #e7fcff;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 1280px;
+    height: 880px;
+    flex-shrink: 0;
+  }
+  .speed-testamico-icon {
+    position: absolute;
+    height: 44.07%;
+    width: 31.9%;
+    top: 33.89%;
+    right: 34.42%;
+    bottom: 22.04%;
+    left: 33.68%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .desktop-1-item {
+    position: absolute;
+    top: 696px;
+    left: 330px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.75) 99.99%,
+      rgba(255, 255, 255, 0)
+    );
+    width: 665px;
+    height: 151px;
+  }
+
+  .sign-up {
+    position: absolute;
+    top: 21px;
+    left: 61px;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-krona-one);
+    display: inline-block;
+    width: 92px;
+    height: 19px;
+  }
+  .sign-in {
+    position: absolute;
+    top: 740px;
+    left: 715px;
+    background-color: var(--color-lightblue);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 206px;
+    height: 64px;
+    cursor: pointer;
+  }
+  .log-in1 {
+    position: absolute;
+    top: 21px;
+    left: 66px;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-krona-one);
+    color: var(--color-black);
+    display: inline-block;
+    width: 71px;
+    height: 19px;
+    flex-shrink: 0;
+  }
+  .log-in {
+    position: absolute;
+    top: 740px;
+    left: 400px;
+    background-color: var(--color-lightblue);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 206px;
+    height: 64px;
+    cursor: pointer;
+  }
+  
+  .lab,
+  .vector-icon {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 55px;
+    height: 49px;
+  }
+  .lab {
+    top: 27px;
+    left: 22px;
+    font-size: var(--font-size-4xs);
+    font-family: var(--font-krona-one);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 42px;
+    height: 14px;
+  }
+  .vector-parent {
+    position: absolute;
+    cursor: pointer;
+    top: 159px;
+    left: 625px;
+    border-radius: var(--br-341xl);
+    background-color: var(--color-black);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 67px;
+    height: 67px;
+    overflow: hidden;
+    font-size: 9px;
+  }
+  .welcome {
+    position: absolute;
+    top: 270px;
+    left: 565px;
+    font-size: 28px;
+    display: flex;
+    align-items: flex-end;
+    width: 195px;
+    height: 34px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-krona-one);
+  }
+  
